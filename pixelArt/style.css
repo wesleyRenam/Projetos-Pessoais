@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#title{
+    margin-top: 3vh;
+}
+body{
+    justify-content: center;
+    text-align: center;
+    background-image: url(img/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#color-palette{
+    display: flex;
+    justify-content: center;
+}
+.color{
+    border: 1px solid black;
+    display: inline-block;
+    width: 5vw;
+    height: 9vh;
+    margin-left: 1vw;
+    border-radius: 10px;
+}
+#black{
+    background-color: rgb(0,0,0);
+}
+#color2{
+    background-color: #0876ad;
+}
+#color3{
+    background-color: #0379AF;
+}
+#color4{
+    background-color: #F1E81F;
+}
+#color5{
+    background-color: blue;
+}
+#button-random-color{
+    width: 5vw;
+    margin-left: 1%;
+    display: inline;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+#pixel-board{
+    display: grid;
+    grid-gap: 0,1px;
+    grid-template-columns: repeat(5, 35px); 
+    justify-content: center;
+    margin-top: 2vh;
+}
+.pixel{
+    border: 1px solid black;
+    height: 35px;
+    width: 35px;
+    background-color: white;
+}
+
+#clear-board{   
+    padding: 1%;
+}
+#board-size{
+    width: 6.7em;
+    margin-left: 3em;
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+#pickColor{
+    margin-left: 19.5%;
+    margin-top: 2%;
+}
+#remove-grid{
+    padding: 1%;
+    margin-right: 1%;
+}
