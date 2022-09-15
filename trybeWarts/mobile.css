@@ -9,6 +9,10 @@
 #div-menu-mobile {
     display: flex;
 }
+
+.trybewarts-header-title {
+    font-size: 3em;
+}
 .menu-mobile {
   display: flex;
   position:absolute;
