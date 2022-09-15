@@ -1,9 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 .header {
     justify-content: center;
     width: 100vw;
-}
-.trybewarts-header-title {
-  margin-left: 1%;
 }
 #div-menu-mobile {
     display: flex;
@@ -11,13 +12,11 @@
 .menu-mobile {
   display: flex;
   position:absolute;
-  top: 10vh;
   background-color: #3C404A;
   width: 100vw;
   height: 5vh;
 }
 .menu-mobile input {
-    padding: 0;
     width: 30%;
     height: 2em;
     margin: 1em;
