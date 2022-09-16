@@ -85,9 +85,11 @@ main {
 }
 
 #house {
+  padding: 0.6em;
   width: 49%;
   margin-left: 1px;
 }
+
 
 
 .section2 {
