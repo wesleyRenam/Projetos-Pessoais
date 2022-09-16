@@ -130,10 +130,11 @@ footer {
 
 #house {
   background-color: white;
-  padding: 1em 4.8em;
+  padding: 1.1em 6.5em;
   border-radius: 15px;
   border: 1px solid #E5E5E5;
   font-size: 14px;
+  margin-left: 1em;
 }
 
 .section2 {

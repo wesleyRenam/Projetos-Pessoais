@@ -55,19 +55,40 @@
     flex-direction: column-reverse;
     align-items: center;
     width: 100%;
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     margin: 0;
 }
 
 main {
-    /* border: 1px solid green; */
     display: flex;
     justify-content: flex-start;
 }
 
 #forms {
-    display: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    /* border: 1px solid black; */
+    border: none;
 }
+
+#forms div {
+    /* border: 1px solid purple; */
+    width: 100%;
+    margin: 0 1em;
+    margin-bottom:10px;
+}
+
+#forms input {
+    width: 49%;
+}
+
+#house {
+  width: 49%;
+  margin-left: 1px;
+}
+
 
 .section2 {
     display: none;
@@ -82,7 +103,7 @@ main {
 }
 
 footer{
-    display: none;
+    display: flex;
 }
 
 .trybewarts-login {
@@ -92,7 +113,6 @@ footer{
 .imagem {
   display: flex;
   width: 75%;
-  /* border: 1px solid yellow; */
 }
 
 .imagem img {
@@ -105,8 +125,7 @@ footer{
     width: 90%;
     margin: 0.4em 0 0;
     padding: 0;
-    font-size: 35px;
-    /* border: 1px solid red; */
+    font-size: 30px;
     order: 1;
 }
 .title-form{
