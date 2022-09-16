@@ -23,6 +23,10 @@
   margin-left: 2%;
 }
 
+#btn-mobile {
+  display: none;
+}
+
 .trybewarts-login, .menu-mobile {
   display: flex;
   justify-content: center;

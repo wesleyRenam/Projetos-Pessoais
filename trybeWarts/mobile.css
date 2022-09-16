@@ -6,19 +6,39 @@
     justify-content: center;
     width: 100vw;
 }
-#div-menu-mobile {
-    display: flex;
+
+#btn-mobile {
+  display: block;
+  width: 5%;
+  border-top: 2px solid black;
+  margin-left: 4%;
+  cursor: pointer;
+}
+
+#btn-mobile::after, #btn-mobile::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: black;
+    margin-top: 5px;
 }
 
 .trybewarts-header-title {
-    font-size: 3em;
+    font-size: 2.5em;
 }
+
+.div-menu-mobile {
+    display: none;
+}
+
 .menu-mobile {
   display: flex;
   position:absolute;
   background-color: #3C404A;
   width: 100vw;
   height: 5vh;
+  z-index: 1000;
 }
 .menu-mobile input {
     width: 30%;
