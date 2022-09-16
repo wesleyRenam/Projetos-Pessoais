@@ -45,19 +45,75 @@
     height: 2em;
     margin: 1em;
 }
+
 .menu-mobile button {
     width: 20%;
     height: 2em;
 }
-main {
-    display: none;
-  }
-.imagem {
-  display: none;
+
+.container {
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+    /* border: 1px solid blue; */
+    margin: 0;
 }
+
+main {
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: flex-start;
+}
+
+#forms {
+    display: none;
+}
+
+.section2 {
+    display: none;
+}
+
+.section3 {
+    display: none;
+}
+
+.study {
+    display: none;
+}
+
 footer{
     display: none;
 }
+
 .trybewarts-login {
     display: none;
+}
+ 
+.imagem {
+  display: flex;
+  width: 75%;
+  /* border: 1px solid yellow; */
+}
+
+.imagem img {
+  width: 100%;
+}
+
+.title-form-mobile {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 0.4em 0 0;
+    padding: 0;
+    font-size: 35px;
+    /* border: 1px solid red; */
+    order: 1;
+}
+.title-form{
+    display: none;
+  }
+
+.form {
+    display: flex;
+    width: 100%;
 }

@@ -51,7 +51,7 @@
   transition: 0.4s;
 }
 
-#div-menu-mobile {
+.div-menu-mobile {
   display: none;
 }
 
@@ -99,6 +99,11 @@ footer {
 .title-form {
   font-size: 3em;
 }
+
+.title-form-mobile{
+  display: none;
+}
+
 #cont {
   display: flex;
   justify-content: flex-end;
