@@ -116,6 +116,10 @@ footer {
   justify-content: center;
 }
 
+.section2-mobile {
+  display: none;
+}
+
 #forms {
   padding: 2em 0 0.7em;
   border-bottom: 3px solid gray; 
