@@ -54,14 +54,14 @@
 .container {
     flex-direction: column-reverse;
     align-items: center;
-    width: 100%;
-    /* border: 1px solid blue; */
     margin: 0;
 }
 
 main {
     display: flex;
     justify-content: flex-start;
+    height: 10vha;
+    border: 1px solid blue;
 }
 
 #forms {
@@ -89,9 +89,12 @@ main {
   width: 49%;
   margin-left: 1px;
 }
-
-
-
+.section2-mobile {
+    display: flex;
+    justify-content: center;
+    background-color: #EFEFEF;
+    flex-wrap: wrap;
+}
 .section2 {
     display: none;
 }
@@ -101,7 +104,34 @@ main {
 }
 
 .study {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid blue; */
+}
+
+.study h1 {
+  /* border: 1px solid red; */
+  margin-bottom: 2px;
+}
+
+#checkboxs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.family {
+    display: flex;
+    /* border: 1px solid blue; */
+    margin: 2px;
+}
+.family label {
+  margin-top: 10px;    
+}
+
+
+#checkboxs input{
+    
+    margin-left: 10px;
 }
 
 footer{
@@ -125,7 +155,7 @@ footer{
     display: flex;
     justify-content: center;
     width: 90%;
-    margin: 0.4em 0 0;
+    margin: 1em 0 0;
     padding: 0;
     font-size: 30px;
     order: 1;
